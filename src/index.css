@@ -1,0 +1,90 @@
+#navbarcontainer,#footer{
+  background-color: #2C3E50;
+}
+#endfooter{
+  background-color: #1A252F;
+}
+
+#home,#about{
+  height: 100vh;
+  background-color: #1ABC9C;
+}
+#portfolio,#contact{
+  margin-top: 8%;
+  padding-bottom: 50px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#notfound{
+  margin-top: 20%;
+}
+.nf{
+  font-size: 80px;
+}
+#aboutcontent{
+  transform: translateX(-50%);
+}
+#line{
+  width: 80px;
+  height: 4px;
+  background-color: #eee;
+}
+.active{
+  background-color: #1ABC9C !important;
+  padding: 5px;
+  border-radius: 10px;
+}
+#homecontent{
+  width: 250px;
+    margin: auto;
+  padding: 10% 0 2% 0;
+
+}
+#portfolio #cover:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+#cover{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(28, 185, 154,0.8);
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.fa-plus{
+  font-size: 80px;
+  color: #eee;
+}
+#screencover{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(31, 164, 182, 0.5);
+  z-index: 999;
+}
+#inputs input{
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  padding-bottom: 15px;
+}
+#inputs input:focus{
+  box-shadow: none;
+  border-bottom-color: #6C757D;
+}
+#inputs{
+  margin-top: 3%;
+}
+#inputs button{
+  background-color: #1ABC9C;
+  color: #eee;
+  border-color: transparent;
+}
+.imagecover{
+  width:40%; 
+}
